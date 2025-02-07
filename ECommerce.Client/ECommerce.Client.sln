@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Client", "ECommerce.Client.csproj", "{D059FE38-288D-468C-908E-838685ED563A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Common", "..\ECommerce.Common\ECommerce.Common.csproj", "{D8C688D1-83F8-4CA8-B52D-084FB98058A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ECommerce.Services", "ECommerce.Services", "{8868E476-ABF1-4645-B825-58D0324E3FA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{F0563A2A-2D8E-4855-951C-6ACF35DB489F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Services.Auth.API", "..\ECommerce.Services.Auth.API\ECommerce.Services.Auth.API.csproj", "{AD700600-85D2-438C-B91D-4ECE1AA4379E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Services.Auth.Domain", "..\ECommerce.Services.Auth.Domain\ECommerce.Services.Auth.Domain.csproj", "{4FEB8DB9-2934-4947-BCCC-F77C58C75283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Services.Auth.Infrastructure", "..\ECommerce.Services.Auth.Infrastructure\ECommerce.Services.Auth.Infrastructure.csproj", "{FC832F06-A2DC-4F4D-A7D3-D3C7DEA9A0D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ApiGateway", "..\ECommerce.ApiGateway\ECommerce.ApiGateway.csproj", "{8E6F21E0-C3C8-4520-994E-088E4B31A546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D059FE38-288D-468C-908E-838685ED563A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D059FE38-288D-468C-908E-838685ED563A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D059FE38-288D-468C-908E-838685ED563A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D059FE38-288D-468C-908E-838685ED563A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C688D1-83F8-4CA8-B52D-084FB98058A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C688D1-83F8-4CA8-B52D-084FB98058A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C688D1-83F8-4CA8-B52D-084FB98058A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C688D1-83F8-4CA8-B52D-084FB98058A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD700600-85D2-438C-B91D-4ECE1AA4379E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD700600-85D2-438C-B91D-4ECE1AA4379E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD700600-85D2-438C-B91D-4ECE1AA4379E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD700600-85D2-438C-B91D-4ECE1AA4379E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEB8DB9-2934-4947-BCCC-F77C58C75283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEB8DB9-2934-4947-BCCC-F77C58C75283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEB8DB9-2934-4947-BCCC-F77C58C75283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEB8DB9-2934-4947-BCCC-F77C58C75283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC832F06-A2DC-4F4D-A7D3-D3C7DEA9A0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC832F06-A2DC-4F4D-A7D3-D3C7DEA9A0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC832F06-A2DC-4F4D-A7D3-D3C7DEA9A0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC832F06-A2DC-4F4D-A7D3-D3C7DEA9A0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6F21E0-C3C8-4520-994E-088E4B31A546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6F21E0-C3C8-4520-994E-088E4B31A546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6F21E0-C3C8-4520-994E-088E4B31A546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6F21E0-C3C8-4520-994E-088E4B31A546}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0563A2A-2D8E-4855-951C-6ACF35DB489F} = {8868E476-ABF1-4645-B825-58D0324E3FA6}
+		{AD700600-85D2-438C-B91D-4ECE1AA4379E} = {F0563A2A-2D8E-4855-951C-6ACF35DB489F}
+		{4FEB8DB9-2934-4947-BCCC-F77C58C75283} = {F0563A2A-2D8E-4855-951C-6ACF35DB489F}
+		{FC832F06-A2DC-4F4D-A7D3-D3C7DEA9A0D7} = {F0563A2A-2D8E-4855-951C-6ACF35DB489F}
+	EndGlobalSection
+EndGlobal
