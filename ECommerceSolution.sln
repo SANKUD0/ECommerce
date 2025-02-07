@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ApiGateway", "ECommerce.ApiGateway\ECommerce.ApiGateway.csproj", "{71C71621-04ED-42A0-B28B-A419FECF17F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Client", "ECommerce.Client\ECommerce.Client.csproj", "{FBF24237-0B2A-4316-902E-C4051215CF3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Common", "ECommerce.Common\ECommerce.Common.csproj", "{61EB66CB-66DB-47E1-A61B-BCE92CF21528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Services.Auth.API", "ECommerce.Services.Auth.API\ECommerce.Services.Auth.API.csproj", "{20228479-614A-4879-8221-9054ACCEC34A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Services.Auth.Domain", "ECommerce.Services.Auth.Domain\ECommerce.Services.Auth.Domain.csproj", "{D35EE182-F9B8-4A17-880A-708E4E017B98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Services.Auth.Infrastructure", "ECommerce.Services.Auth.Infrastructure\ECommerce.Services.Auth.Infrastructure.csproj", "{1CAA4535-788F-458B-B7A4-2F91163ADAFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ECommerce.Services", "ECommerce.Services", "{1EC9065B-F504-4EF6-AABA-2C9DFC1E5443}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{BC3B83CC-888F-40C8-81EA-599D689BD914}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71C71621-04ED-42A0-B28B-A419FECF17F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C71621-04ED-42A0-B28B-A419FECF17F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C71621-04ED-42A0-B28B-A419FECF17F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C71621-04ED-42A0-B28B-A419FECF17F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF24237-0B2A-4316-902E-C4051215CF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF24237-0B2A-4316-902E-C4051215CF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF24237-0B2A-4316-902E-C4051215CF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF24237-0B2A-4316-902E-C4051215CF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61EB66CB-66DB-47E1-A61B-BCE92CF21528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61EB66CB-66DB-47E1-A61B-BCE92CF21528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61EB66CB-66DB-47E1-A61B-BCE92CF21528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61EB66CB-66DB-47E1-A61B-BCE92CF21528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20228479-614A-4879-8221-9054ACCEC34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20228479-614A-4879-8221-9054ACCEC34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20228479-614A-4879-8221-9054ACCEC34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20228479-614A-4879-8221-9054ACCEC34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35EE182-F9B8-4A17-880A-708E4E017B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35EE182-F9B8-4A17-880A-708E4E017B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35EE182-F9B8-4A17-880A-708E4E017B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35EE182-F9B8-4A17-880A-708E4E017B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAA4535-788F-458B-B7A4-2F91163ADAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAA4535-788F-458B-B7A4-2F91163ADAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAA4535-788F-458B-B7A4-2F91163ADAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAA4535-788F-458B-B7A4-2F91163ADAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20228479-614A-4879-8221-9054ACCEC34A} = {BC3B83CC-888F-40C8-81EA-599D689BD914}
+		{D35EE182-F9B8-4A17-880A-708E4E017B98} = {BC3B83CC-888F-40C8-81EA-599D689BD914}
+		{1CAA4535-788F-458B-B7A4-2F91163ADAFF} = {BC3B83CC-888F-40C8-81EA-599D689BD914}
+		{BC3B83CC-888F-40C8-81EA-599D689BD914} = {1EC9065B-F504-4EF6-AABA-2C9DFC1E5443}
+	EndGlobalSection
+EndGlobal
