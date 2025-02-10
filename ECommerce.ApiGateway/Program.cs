@@ -68,6 +68,14 @@ namespace ECommerce.ApiGateway
             var authServiceUrl = builder.Configuration["ReverseProxy:Clusters:auth-cluster:Destinations:local:Address"];
             logger.LogInformation($"API Gateway regirige vers auth-service: {authServiceUrl ?? "NON TROUVÉ !"}\n");
 
+            //Test de la connexion avec les microservices
+            app.Use(async (context, next) =>
+            {
+                var requestPath = context.Request.Path.Value;
+                Console.WriteLine($" Requête reûe : {requestPath}");
+                await next();
+            });
+
             app.MapReverseProxy();
 
             app.Run();
